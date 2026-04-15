@@ -14,35 +14,41 @@ Natural Language Processing 🧠
 Automation ⚙️
 
 🎯 Objectives
-Build a smart voice-controlled assistant
-Automate daily computer tasks
-Improve user interaction using speech
-Integrate multiple APIs and Python libraries
+> Build a smart voice-controlled assistant
+> Automate daily computer tasks
+> Improve user interaction using speech
+> Integrate multiple APIs and Python libraries
+
 Create a real-world AI-based application
 🚀 Key Features
 🎤 Voice Interaction
 Converts speech to text using SpeechRecognition
 Supports real-time command processing
+
 🔊 Voice Response
 Uses pyttsx3 for human-like voice output
 Dynamic responses based on commands
+
 🌐 Web Automation
 Search anything on Google
 Fetch quick information from Wikipedia
 Open websites instantly
+
 💻 System Control
 Open applications (Chrome, VS Code, etc.)
 Access system files and directories
 Perform basic OS operations
+
 🎵 Entertainment
 Play music from local system
 Control playback
+
 ⏰ Productivity Tools
 Tell date and time
 Set reminders (basic implementation)
 Answer general queries
-🧠 System Architecture
 
+🧠 System Architecture
 User Voice Input 🎤
 ⬇
 Speech Recognition (Speech → Text)
@@ -57,6 +63,7 @@ Text-to-Speech Response 🔊
 🛠️ Technologies & Libraries
 👨‍💻 Programming Language
 Python 3.x
+
 📚 Libraries Used
 SpeechRecognition
 pyttsx3
@@ -66,6 +73,7 @@ wikipedia
 webbrowser
 os
 random
+
 🌐 Frontend (Optional UI)
 HTML
 CSS
@@ -76,11 +84,14 @@ JavaScript
 🔹 Step 1: Clone Repository
 git clone https://github.com/your-username/jarvis-ai.git
 cd jarvis-ai
+
 🔹 Step 2: Create Virtual Environment (Recommended)
 python -m venv venv
 venv\Scripts\activate   # For Windows
+
 🔹 Step 3: Install Dependencies
 pip install -r requirements.txt
+
 🔹 Step 4: Install PyAudio (Important)
 pip install pipwin
 pipwin install pyaudio
