@@ -48,15 +48,20 @@ Tell date and time
 Set reminders (basic implementation)
 Answer general queries
 
+
 🧠 System Architecture
 User Voice Input 🎤
 ⬇
+
 Speech Recognition (Speech → Text)
 ⬇
+
 Command Processing Logic
 ⬇
+
 Task Execution (API/System Calls)
 ⬇
+
 Text-to-Speech Response 🔊
 
 
